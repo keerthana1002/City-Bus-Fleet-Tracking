@@ -1,0 +1,37 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "1. Run Master Fleet & Prototype Demo (main.py)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "2. Run Arrival Time Estimator Prototype",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/arrival_estimator.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "3. Run 600-Bus Fleet Simulator",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/fleet_simulator.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "4. Run 10-Minute ETA Latency Monitor",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/labs/Module_4_Testing_Selenium_Monitoring/L4.5_monitor_eta.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}

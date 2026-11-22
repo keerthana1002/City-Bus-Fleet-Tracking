@@ -1,0 +1,11 @@
+=== Case 28: 10-Minute Fleet ETA Monitoring Log (600 Buses, Limit = 15.0 ms) ===
+[Minute 01/10] Buses=600 | Tunnel=75 | ResponseTime=8.46 ms (Limit=15.0 ms) | Status=OK
+[Minute 02/10] Buses=600 | Tunnel=75 | ResponseTime=6.44 ms (Limit=15.0 ms) | Status=OK
+[Minute 03/10] Buses=600 | Tunnel=75 | ResponseTime=6.25 ms (Limit=15.0 ms) | Status=OK
+[Minute 04/10] Buses=600 | Tunnel=75 | ResponseTime=6.19 ms (Limit=15.0 ms) | Status=OK
+[Minute 05/10] Buses=600 | Tunnel=75 | ResponseTime=6.31 ms (Limit=15.0 ms) | Status=OK
+[Minute 06/10] Buses=600 | Tunnel=75 | ResponseTime=6.61 ms (Limit=15.0 ms) | Status=OK
+[Minute 07/10] Buses=600 | Tunnel=75 | ResponseTime=24.69 ms (Limit=15.0 ms) | Status=ALERT: LATENCY THRESHOLD EXCEEDED
+[Minute 08/10] Buses=600 | Tunnel=75 | ResponseTime=8.35 ms (Limit=15.0 ms) | Status=OK
+[Minute 09/10] Buses=600 | Tunnel=75 | ResponseTime=7.20 ms (Limit=15.0 ms) | Status=OK
+[Minute 10/10] Buses=600 | Tunnel=75 | ResponseTime=7.09 ms (Limit=15.0 ms) | Status=OK

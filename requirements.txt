@@ -1,0 +1,2 @@
+# Standard library only required; pytest optional
+pytest>=7.0.0
